@@ -10,5 +10,6 @@ def bubble_sort(arr)
 end
 
 my_list = [64, 34, 25, 12, 22, 11, 90]
+print "#{my_list}\n"
 bubble_sort(my_list)
 puts "lista ordenada: #{my_list}"
