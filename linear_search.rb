@@ -18,3 +18,6 @@ if result != -1
 else
   puts "O valor #{value_searching} não foi encontrado na lista."
 end
+
+
+
