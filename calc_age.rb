@@ -8,7 +8,7 @@ def calculate_age(date_of_birth)
   days = today.day - date_of_birth.day
 
   if days < 0
-    month =1
+    months =1
     days += Date.new(today.year, today.month, 1) + (1.month - date_of_birth.day)
   end
  if months < 0
