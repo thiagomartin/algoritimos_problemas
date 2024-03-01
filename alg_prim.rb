@@ -41,7 +41,7 @@ edges = [
   [1, 3, 3],
   [2, 3, 5],
   [2, 4, 1],
-  [3, 4, 4]
+  [3, 4, 4],
 ]
 
 graph = Graph.new(vertice, edges)
