@@ -40,7 +40,7 @@ def binary_search(list,target)
 
     if  valor_meio == target
       return meio
-    elsif valor_meio > target
+    elsif valor_meio < target
       baixo = meio +1
     else
       alto = meio - 1
@@ -50,7 +50,7 @@ def binary_search(list,target)
 end
 
 list_ordenada =  [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20]
-target = -1
+target = 2
 result = binary_search(list_ordenada, target)
 if result  != false
   puts "#{target} está no índice #{result}"
